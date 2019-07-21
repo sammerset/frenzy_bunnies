@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = FrenzyBunnies::VERSION
   
-  gem.add_runtime_dependency 'march_hare'
+  gem.add_runtime_dependency 'march_hare', git: 'https://github.com/ruby-amqp/march_hare.git', tag: 'v2.22.0'
   gem.add_runtime_dependency 'thor'
   gem.add_runtime_dependency 'sinatra'
   gem.add_runtime_dependency 'atomic'
